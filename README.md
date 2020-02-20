@@ -1,3 +1,3 @@
-# Trabalho da Fiap com o Swagger apresentando:
+# Trabalho da Fiap com o swagger apresentando:
 
-Swagger fiap
+- Acessar na url localhost:8081/swagger-ui.html
