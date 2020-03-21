@@ -17,11 +17,25 @@ public class ClienteController {
 		return cliente;
 	}
 	
-	@RequestMapping("{cpf}")
+	@RequestMapping(method=RequestMethod.GET ,path= "{cpf}")
 	public void buscarCliente(@PathVariable String cpf) {
 		
 	
 	}
 	
+	@RequestMapping(method=RequestMethod.DELETE ,path= "{cpf}")
+	public void deletarCliente(@PathVariable String cpf) {
+		
+	
+	}
+	
+	@RequestMapping(method=RequestMethod.PUT ,path= "{cpf}")
+	public Cliente alterarCliente(@RequestBody Cliente cliente,@PathVariable String cpf) {
+		return cliente;
+	
+	}
+	
+
+
 
 }
